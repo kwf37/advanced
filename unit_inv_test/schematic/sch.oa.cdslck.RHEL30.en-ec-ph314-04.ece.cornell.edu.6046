@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      kwf37
+HostName                       en-ec-ph314-04.ece.cornell.edu
+ProcessIdentifier              6046
+ProcessCreationTime_UTC        1550779238
+ProcessCreationTime_Readable   Thu Feb 21 15:00:38 2019 EST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/kwf37/Cadence/advanced/unit_inv_test/schematic/sch.oa.cdslck
+TimeEditLocked                 Thu Feb 21 15:03:38 2019 EST
