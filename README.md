@@ -11,3 +11,4 @@
 
 ## Brainstorming Ideas
 * Linear-Regulator vs. Caps- Should we save on power/area and design everything around bad supply?
+* The transfer function from Speaker to Audio out starts with a zero, levels out, then has a pole. We will probably want a R C C feedback network (maybe like HW 1 config inverted) to account for this and get a steady dB out
