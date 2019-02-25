@@ -4,7 +4,7 @@
 * Audio_model- Provided by Molnar
 * sys_model- Provided by Molnar
 * hw2_characterize- Instanced the Audio and Sys models with vsins and isins for characterizing input impedances and transfer functions
-* hw2_diff_amp- Inverter-style differential amplifier
+* hw2_diff_amp- Inverter-style differential amplifier- has about 90dB of gain, rolloff ~20kHz, but unstable ~100MHz
 * hw2_diff_amp_test- Test bench for differential amplifier
 * unit_inverter- A Unit inverter designed to operate at midrail with Vdd ~1.4V. Missing subc
 * unit_inv_test- A test bench for the unit inverter. Set up to do DC sweep and Frequency Response. DC Sweep is good for figuring out biasing, and Frequency response shows the gain and bandwidth. May want to add tests for input/output impedance.
