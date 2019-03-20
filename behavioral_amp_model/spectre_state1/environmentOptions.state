@@ -1,4 +1,4 @@
-(envOpts analysisOrder) ("dc" "ac" "tran")
+(envOpts analysisOrder) ("dc" "ac" "tran" "noise")
 (envOpts autoDisplay) t
 (envOpts cmd64bit) nil
 (envOpts cpfIsVMSEnabled) t
