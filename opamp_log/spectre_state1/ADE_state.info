@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("advanced" "opamp_log" "schematic" "spectre")
+descriptionText = "None"
