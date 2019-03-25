@@ -1,6 +1,6 @@
-(envOpts analysisOrder) ("dc" "ac" "tran")
+(envOpts analysisOrder) ("dc" "ac" "tran" "noise")
 (envOpts autoDisplay) t
-(envOpts cmd64bit) nil
+(envOpts cmd64bit) t
 (envOpts cpfIsVMSEnabled) t
 (envOpts emAnaType) "Dynamic"
 (envOpts emLayerMap) ""
