@@ -2,9 +2,9 @@
 <!--StateFileType saveLoadState-->
 <topLevel>
     <SimpleProp Name="stateFileVersion" Value="@(#)$CDS: virtuoso version 6.1.7-64b 04/13/2016 08:09 (sjfnl115) $" Type="string" />
-    <SimpleProp Name="currentContext" Value="/home/fbg6/simulation/behavioral_amp_model_f/spectre/schematic/psf" Type="stringValue" />
+    <SimpleProp Name="currentContext" Value="/home/fbg6/simulation/inverter_VTC/spectre/schematic/psf" Type="stringValue" />
     <IndexedProp Name="resultsDirMappingList">
-        <SimpleProp Name="__resDirStr_0" Value="/home/fbg6/simulation/behavioral_amp_model_f/spectre/schematic/psf" Type="stringValue" />
+        <SimpleProp Name="__resDirStr_0" Value="/home/fbg6/simulation/inverter_VTC/spectre/schematic/psf" Type="stringValue" />
     </IndexedProp>
     <IndexedProp Name="dependentExprsList">
         <SimpleProp Name="E2" Value='getData(&quot;/V+&quot; ?result &apos;ac)' Type="stringValue" />
@@ -27,8 +27,8 @@
     </IndexedProp>
     <Object Class="wsGraphContainer">
         <SimpleProp Name="layoutType" Value="Auto" Type="wsGraphLayoutType" />
-        <SimpleProp Name="title" Value="advanced behavioral_amp_model_f schematic" Type="string" />
-        <SimpleProp Name="layoutState" Value="553,996" Type="string" />
+        <SimpleProp Name="title" Value="advanced inverter_VTC schematic" Type="string" />
+        <SimpleProp Name="layoutState" Value="640,996" Type="string" />
         <IndexedProp Name="graphList">
             <ObjectProp>
                 <Object Class="wsRect2DGraph">
@@ -46,8 +46,8 @@
                     <SimpleProp Name="graphSigDigitsMode" Value="Auto" Type="markerSigDigitsModeValue" />
                     <SimpleProp Name="graphSignificantDigits" Value="4" Type="intValue" />
                     <SimpleProp Name="graphThreshold" Value="10%-90%" Type="thresholdValue" />
-                    <SimpleProp Name="graphTitle" Value='dft(vtime(&apos;tran &quot;/out&quot;) 0.05 0.15 8192 &quot;Rectangular&quot; 1 &quot;default&quot; 1.0)' Type="stringValue" />
-                    <SimpleProp Name="legendLabel" Value='dft(vtime(&apos;tran &quot;/out&quot;) 0.05 0.15 8192 &quot;Rectangular&quot; 1 &quot;default&quot; 1.0)' Type="stringValue" />
+                    <SimpleProp Name="graphTitle" Value="DC Response" Type="stringValue" />
+                    <SimpleProp Name="legendLabel" Value="DC Response" Type="stringValue" />
                     <SimpleProp Name="legendsOn" Value="1" Type="boolValue" />
                     <SimpleProp Name="reloadNeeded" Value="0" Type="boolValue" />
                     <SimpleProp Name="saveFilePath" Value="" Type="stringValue" />
@@ -61,7 +61,7 @@
                     <SimpleProp Name="viva.graph.defaultSubtitle" Value="1" Type="boolValue" />
                     <SimpleProp Name="viva.graph.dimOldTraces" Value="1" Type="boolValue" />
                     <SimpleProp Name="viva.graph.dimSameColor" Value="1" Type="boolValue" />
-                    <SimpleProp Name="viva.graph.displayDate" Value="1" Type="boolValue" />
+                    <SimpleProp Name="viva.graph.displayDate" Value="0" Type="boolValue" />
                     <SimpleProp Name="viva.graph.displayStaticMeasures" Value="0" Type="boolValue" />
                     <SimpleProp Name="viva.graph.enableLV" Value="1" Type="boolValue" />
                     <SimpleProp Name="viva.graph.linestyleByParameter" Value="" Type="stringValue" />
@@ -111,17 +111,17 @@
                     <IndexedProp Name="indepAxisList">
                         <ObjectProp>
                             <Object Class="wsIndepAxis">
-                                <SimpleProp Name="savedObjectId" Value="indepAxis[3.4.8]" Type="stringValue" />
+                                <SimpleProp Name="savedObjectId" Value="indepAxis[3.3.3]" Type="stringValue" />
                                 <SimpleProp Name="axisNumber" Value="-1" Type="intValue" />
-                                <SimpleProp Name="baseUnit" Value="Hz" Type="stringValue" />
+                                <SimpleProp Name="baseUnit" Value="" Type="stringValue" />
                                 <SimpleProp Name="drawZeroGrid" Value="0" Type="boolValue" />
                                 <SimpleProp Name="eyeInterval" Value="0" Type="doubleValue" />
                                 <SimpleProp Name="eyeOn" Value="0" Type="boolValue" />
-                                <SimpleProp Name="label" Value="freq" Type="stringValue" />
+                                <SimpleProp Name="label" Value="vin" Type="stringValue" />
                                 <SimpleProp Name="labelWithAxisNumber" Value="0" Type="boolValue" />
                                 <SimpleProp Name="majDivisions" Value="10" Type="intValue" />
                                 <SimpleProp Name="majorDelta" Value="0" Type="doubleValue" />
-                                <SimpleProp Name="maxScale" Value="42000" Type="doubleValue" />
+                                <SimpleProp Name="maxScale" Value="1.3" Type="doubleValue" />
                                 <SimpleProp Name="minDivisions" Value="10" Type="intValue" />
                                 <SimpleProp Name="minScale" Value="0" Type="doubleValue" />
                                 <SimpleProp Name="modifier" Value="" Type="modifierValue" />
@@ -156,36 +156,36 @@
                     <IndexedProp Name="stripContainerList">
                         <ObjectProp>
                             <Object Class="wsStripContainer">
-                                <SimpleProp Name="savedObjectId" Value="stripContainer[3.4.50]" Type="stringValue" />
-                                <SimpleProp Name="currentHeight" Value="445" Type="intValue" />
+                                <SimpleProp Name="savedObjectId" Value="stripContainer[3.3.3]" Type="stringValue" />
+                                <SimpleProp Name="currentHeight" Value="532" Type="intValue" />
                                 <SimpleProp Name="enableEdgeMeasures" Value="0" Type="boolValue" />
                                 <SimpleProp Name="fixedSize" Value="0" Type="boolValue" />
                                 <SimpleProp Name="showEdgeBrowser" Value="0" Type="boolValue" />
                                 <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
                                 <SimpleProp Name="zoom_x" Value="0.00000000000000" Type="double" />
-                                <SimpleProp Name="zoom_y" Value="-0.0100000000000000" Type="double" />
-                                <SimpleProp Name="zoom_width" Value="42000.0000000000" Type="double" />
-                                <SimpleProp Name="zoom_height" Value="0.180000000000000" Type="double" />
+                                <SimpleProp Name="zoom_y" Value="-0.100000000000000" Type="double" />
+                                <SimpleProp Name="zoom_width" Value="1.30000000000000" Type="double" />
+                                <SimpleProp Name="zoom_height" Value="1.50000000000000" Type="double" />
                                 <SimpleProp Name="isZoomed" Value="false" Type="bool" />
                                 <IndexedProp Name="depAxisList">
                                     <ObjectProp>
                                         <Object Class="wsDepAxis">
-                                            <SimpleProp Name="savedObjectId" Value="depAxis[3.4.50]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="depAxis[3.3.3]" Type="stringValue" />
                                             <SimpleProp Name="axisNumber" Value="1" Type="intValue" />
-                                            <SimpleProp Name="baseUnit" Value="" Type="stringValue" />
+                                            <SimpleProp Name="baseUnit" Value="V" Type="stringValue" />
                                             <SimpleProp Name="drawZeroGrid" Value="0" Type="boolValue" />
                                             <SimpleProp Name="eyeInterval" Value="0" Type="doubleValue" />
                                             <SimpleProp Name="eyeOn" Value="0" Type="boolValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="label" Value="&lt;Modifiers&gt;" Type="stringValue" />
+                                            <SimpleProp Name="label" Value="V" Type="stringValue" />
                                             <SimpleProp Name="labelWithAxisNumber" Value="0" Type="boolValue" />
                                             <SimpleProp Name="majDivisions" Value="10" Type="intValue" />
                                             <SimpleProp Name="majorDelta" Value="0" Type="doubleValue" />
-                                            <SimpleProp Name="maxScale" Value="0.17" Type="doubleValue" />
+                                            <SimpleProp Name="maxScale" Value="1.4" Type="doubleValue" />
                                             <SimpleProp Name="minDivisions" Value="10" Type="intValue" />
-                                            <SimpleProp Name="minScale" Value="-0.01" Type="doubleValue" />
+                                            <SimpleProp Name="minScale" Value="-0.1" Type="doubleValue" />
                                             <SimpleProp Name="modifier" Value="Magnitude" Type="modifierValue" />
-                                            <SimpleProp Name="modifierSet" Value="Mag" Type="stringValue" />
+                                            <SimpleProp Name="modifierSet" Value="" Type="stringValue" />
                                             <SimpleProp Name="scaledUnit" Value="" Type="stringValue" />
                                             <SimpleProp Name="scalerMode" Value="AutoScale" Type="axisScalerModeValue" />
                                             <SimpleProp Name="sigDigsDef" Value="1" Type="boolValue" />
@@ -204,7 +204,7 @@
                                             <SimpleProp Name="viva.axis.minorGridForeground" Value="#d3d3d3" Type="colorValue" />
                                             <SimpleProp Name="viva.axis.minorGridsOn" Value="1" Type="boolValue" />
                                             <SimpleProp Name="viva.axis.minorTicsOn" Value="1" Type="boolValue" />
-                                            <SimpleProp Name="viva.axis.significantDigits" Value="5" Type="intValue" />
+                                            <SimpleProp Name="viva.axis.significantDigits" Value="3" Type="intValue" />
                                             <SimpleProp Name="viva.depAxis.flexible" Value="0" Type="boolValue" />
                                             <SimpleProp Name="viva.depAxis.forceOrigin" Value="0" Type="boolValue" />
                                             <SimpleProp Name="viva.depAxis.logScale" Value="0" Type="boolValue" />
@@ -215,8 +215,8 @@
                                 </IndexedProp>
                                 <IndexedProp Name="traceList">
                                     <ObjectProp>
-                                        <Object Class="wsComplexTrace">
-                                            <SimpleProp Name="savedObjectId" Value="complexTrace[3.4.44]" Type="stringValue" />
+                                        <Object Class="wsRectTrace">
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[3.3.3]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="autoCalculateBaseAndToplineValues" Value="0.00000000000, 3.50000000000" Type="baselineToplineValue" />
                                             <SimpleProp Name="autoCalculationStatus" Value="wsVaxUnknownEvaluationStatus" Type="vaxEvaluationStatusValue" />
@@ -225,15 +225,15 @@
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
-                                            <SimpleProp Name="dataDir" Value="" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[3.4.50]" Type="stringValue" />
+                                            <SimpleProp Name="dataDir" Value="/home/fbg6/simulation/inverter_VTC/spectre/schematic/psf" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[3.3.3]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
-                                            <SimpleProp Name="expression" Value='dft(vtime(&apos;tran &quot;/out&quot;) 0.05 0.15 8192 &quot;Rectangular&quot; 1 &quot;default&quot; 1.0)' Type="stringValue" />
-                                            <SimpleProp Name="foreground" Value="#00e0e0" Type="colorValue" />
+                                            <SimpleProp Name="expression" Value="" Type="stringValue" />
+                                            <SimpleProp Name="foreground" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[3.4.8]" Type="stringValue" />
-                                            <SimpleProp Name="label" Value='dft(vtime(&apos;tran &quot;/out&quot;) 0.05 0.15 8192 &quot;Rectangular&quot; 1 &quot;default&quot; 1.0)' Type="stringValue" />
-                                            <SimpleProp Name="legendLabel" Value='dft(vtime(&apos;tran &quot;/out&quot;) 0.05 0.15 8192 &quot;Rectangular&quot; 1 &quot;default&quot; 1.0,vdd=1.28)' Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[3.3.3]" Type="stringValue" />
+                                            <SimpleProp Name="label" Value='VS(&quot;/net04&quot;)' Type="stringValue" />
+                                            <SimpleProp Name="legendLabel" Value='VS(&quot;/net04&quot;)' Type="stringValue" />
                                             <SimpleProp Name="prevEdgeCalculationStatus" Value="wsVaxUnknownEvaluationStatus" Type="vaxEvaluationStatusValue" />
                                             <SimpleProp Name="scalar" Value="0" Type="boolValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
@@ -241,7 +241,7 @@
                                             <SimpleProp Name="symbolCount" Value="20" Type="intValue" />
                                             <SimpleProp Name="symbolCountAll" Value="0" Type="boolValue" />
                                             <SimpleProp Name="testDepScreenLimits" Value="NONE" Type="stringValue" />
-                                            <SimpleProp Name="traceIndex" Value="4" Type="intValue" />
+                                            <SimpleProp Name="traceIndex" Value="1" Type="intValue" />
                                             <SimpleProp Name="visible" Value="1" Type="boolValue" />
                                             <SimpleProp Name="viva.trace.RvsI" Value="0" Type="boolValue" />
                                             <SimpleProp Name="viva.trace.autoReferenceLines" Value="1" Type="boolValue" />
@@ -254,32 +254,66 @@
                                             <SimpleProp Name="viva.trace.depModifier" Value="Magnitude" Type="modifierValue" />
                                             <SimpleProp Name="viva.trace.hiliteColor" Value="#00ff00" Type="colorValue" />
                                             <SimpleProp Name="viva.trace.indepModifier" Value="Magnitude" Type="modifierValue" />
-                                            <SimpleProp Name="viva.trace.lineStyle" Value="Solid" Type="painterLineStyleValue" />
+                                            <SimpleProp Name="viva.trace.lineStyle" Value="Dot" Type="painterLineStyleValue" />
                                             <SimpleProp Name="viva.trace.lineThickness" Value="Fine" Type="painterLineWidthValue" />
-                                            <SimpleProp Name="viva.trace.symbolStyle" Value="Dot" Type="traceSymbolStyleValue" />
+                                            <SimpleProp Name="viva.trace.symbolStyle" Value="Plus" Type="traceSymbolStyleValue" />
                                             <SimpleProp Name="viva.trace.symbolsOn" Value="0" Type="boolValue" />
                                             <SimpleProp Name="viva.trace.threshold" Value="20%-80%" Type="thresholdValue" />
                                             <SimpleProp Name="viva.trace.toplineReference" Value="5" Type="doubleValue" />
-                                            <SimpleProp Name="viva.trace.type" Value="spectral" Type="traceTypeValue" />
+                                            <SimpleProp Name="viva.trace.type" Value="line" Type="traceTypeValue" />
                                             <SimpleProp Name="viva.trace.useGlow" Value="0" Type="boolValue" />
                                             <ObjectProp Name="valueToken">
-                                                <Object Class="wsExpressionToken">
-                                                    <SimpleProp Name="_consumerId" Value="0" Type="int" />
+                                                <Object Class="srrSignalToken">
+                                                    <SimpleProp Name="_consumerId" Value="1" Type="int" />
                                                     <SimpleProp Name="_yMod" Value="Mag" Type="string" />
                                                     <SimpleProp Name="_xMod" Value="Mag" Type="string" />
-                                                    <SimpleProp Name="_name" Value="expression" Type="string" />
-                                                    <SimpleProp Name="_expression" Value='dft(vtime(&apos;tran &quot;/out&quot;) 0.05 0.15 8192 &quot;Rectangular&quot; 1 &quot;default&quot; 1.0)' Type="string" />
-                                                    <SimpleProp Name="_isScaled" Value="false" Type="bool" />
-                                                    <ObjectProp Name="_cxt">
+                                                    <SimpleProp Name="_signame" Value="net04" Type="string" />
+                                                    <SimpleProp Name="_alias" Value="net04" Type="string" />
+                                                    <SimpleProp Name="_sigtypename" Value="V" Type="string" />
+                                                    <ObjectProp Name="_context">
                                                         <Object Class="srrContext">
                                                             <SimpleProp Name="_resdir" Value="__resDirStr_0" Type="string" />
-                                                            <SimpleProp Name="_origresdir" Value="/home/fbg6/simulation/behavioral_amp_model_f/spectre/schematic/psf" Type="string" />
-                                                            <SimpleProp Name="_dataset" Value="tran-tran" Type="string" />
-                                                            <SimpleProp Name="_anaType" Value="TRAN" Type="srrAnalysisType" />
+                                                            <SimpleProp Name="_origresdir" Value="/home/fbg6/simulation/inverter_VTC/spectre/schematic/psf" Type="string" />
+                                                            <SimpleProp Name="_dataset" Value="dc-dc" Type="string" />
+                                                            <SimpleProp Name="_anaType" Value="DC" Type="srrAnalysisType" />
                                                         </Object>
                                                     </ObjectProp>
                                                 </Object>
                                             </ObjectProp>
+                                        </Object>
+                                    </ObjectProp>
+                                </IndexedProp>
+                                <IndexedProp Name="markerList">
+                                    <ObjectProp>
+                                        <Object Class="wsHorizMarker">
+                                            <SimpleProp Name="savedObjectId" Value="horizMarker[3.3.2]" Type="stringValue" />
+                                            <SimpleProp Name="depunit" Value="V" Type="stringValue" />
+                                            <SimpleProp Name="expression" Value="" Type="stringValue" />
+                                            <SimpleProp Name="indepunit" Value="" Type="stringValue" />
+                                            <SimpleProp Name="markerPositionMode" Value="byXYMode" Type="markerPositionModeValue" />
+                                            <SimpleProp Name="tableLabel" Value="%X" Type="stringValue" />
+                                            <SimpleProp Name="tooltip" Value="" Type="stringValue" />
+                                            <SimpleProp Name="traceId" Value="" Type="stringValue" />
+                                            <SimpleProp Name="traceattached" Value="1" Type="boolValue" />
+                                            <SimpleProp Name="type" Value="horiz" Type="stringValue" />
+                                            <SimpleProp Name="vaxMeasurementType" Value="vaxUnknownMeasurementType" Type="stringValue" />
+                                            <SimpleProp Name="visible" Value="1" Type="boolValue" />
+                                            <SimpleProp Name="viva.horizMarker.defaultLabel" Value="%M" Type="stringValue" />
+                                            <SimpleProp Name="viva.horizMarker.font" Value="Default,10,-1,5,50,0,0,0,0,0" Type="fontValue" />
+                                            <SimpleProp Name="viva.horizMarker.foreground" Value="#000000" Type="colorValue" />
+                                            <SimpleProp Name="viva.horizMarker.interceptStyle" Value="on when hover" Type="markerInterceptStyleValue" />
+                                            <SimpleProp Name="viva.horizMarker.lineStyle" Value="Dash" Type="painterLineStyleValue" />
+                                            <SimpleProp Name="viva.horizMarker.notation" Value="Suffix" Type="outputFormValue" />
+                                            <SimpleProp Name="viva.horizMarker.sigDigitsMode" Value="Auto" Type="markerSigDigitsModeValue" />
+                                            <SimpleProp Name="viva.horizMarker.significantDigits" Value="4" Type="intValue" />
+                                            <SimpleProp Name="viva.horizMarker.snapPoint" Value="Data Point" Type="horizMarkerSnapPointValue" />
+                                            <SimpleProp Name="viva.horizMarker.snapPointDataValue" Value="600.000000000m" Type="stringValue" />
+                                            <SimpleProp Name="viva.marker.snapInterceptDataValue" Value="0.0" Type="stringValue" />
+                                            <SimpleProp Name="xlocation" Value="0" Type="doubleValue" />
+                                            <SimpleProp Name="ylocation" Value="0.6" Type="doubleValue" />
+                                            <SimpleProp Name="labelName" Value="H1" Type="stringValue" />
+                                            <SimpleProp Name="dataPosition_y" Value="0.6" Type="doubleValue" />
+                                            <SimpleProp Name="parentAxisId" Value="depAxis[3.3.3]" Type="stringValue" />
                                         </Object>
                                     </ObjectProp>
                                 </IndexedProp>
@@ -289,11 +323,11 @@
                     <IndexedProp Name="bookmarkGroupList">
                         <ObjectProp>
                             <Object Class="wsBookmarkGroup">
-                                <SimpleProp Name="savedObjectId" Value="bookmarkGroup[3.4.4]" Type="stringValue" />
+                                <SimpleProp Name="savedObjectId" Value="bookmarkGroup[3.3.3]" Type="stringValue" />
                                 <SimpleProp Name="clientId" Value="" Type="stringValue" />
                                 <SimpleProp Name="clientName" Value="" Type="stringValue" />
                                 <SimpleProp Name="clientText" Value="" Type="stringValue" />
-                                <SimpleProp Name="creationDate" Value="Mon Mar 25 23:39:40 2019" Type="stringValue" />
+                                <SimpleProp Name="creationDate" Value="Wed Mar 27 17:23:38 2019" Type="stringValue" />
                                 <SimpleProp Name="description" Value="" Type="stringValue" />
                                 <SimpleProp Name="groupName" Value="default" Type="stringValue" />
                                 <SimpleProp Name="parentId" Value="" Type="stringValue" />

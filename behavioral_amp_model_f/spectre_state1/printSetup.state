@@ -1,4 +1,4 @@
-'(nil version 1.0 bBox ((36 23) (586 611)))
+'(nil version 1.0 bBox ((374 422) (924 1010)))
 (unless printInfoDpl
 printInfoDpl = (ncons nil)
 )
@@ -30,11 +30,12 @@ printInfoDpl->noiseOptions->output = nil
 printInfoDpl->noiseOptions->include = 'all
 printInfoDpl->noiseOptions->xclude = 'none
 printInfoDpl->noiseOptions->devTypes = (let
-(tmp1 tmp2 tmp3)
-tmp1 = "inductor"
-tmp2 = "resistor"
-tmp3 = "b3v3"
-list(tmp1 tmp2 tmp3)
+(tmp1 tmp2 tmp3 tmp4)
+tmp1 = "b3v3"
+tmp2 = "diode"
+tmp3 = "inductor"
+tmp4 = "resistor"
+list(tmp1 tmp2 tmp3 tmp4)
 )
 printInfoDpl->noiseOptions->noiseUnit = "V"
 printInfoDpl->noiseOptions->truncateType = 'byNumber
