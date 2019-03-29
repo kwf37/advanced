@@ -67,16 +67,16 @@ analysis(dc fields lin) "101"
 analysis(dc fields log) ""
 analysis(dc fields mod) ""
 analysis(dc fields modelParam) ""
-analysis(dc fields param) "vdd"
+analysis(dc fields param) ""
 analysis(dc fields rangeType) "Start-Stop"
 analysis(dc fields saveOppoint) t
 analysis(dc fields span) ""
-analysis(dc fields start) "1.3"
+analysis(dc fields start) "-20"
 analysis(dc fields step) "10m"
 analysis(dc fields stepTypeLin) "Number of Steps"
 analysis(dc fields stepTypeLog) "Points Per Decade"
-analysis(dc fields stop) "1.6"
-analysis(dc fields sweep) "Design Variable"
+analysis(dc fields stop) "80"
+analysis(dc fields sweep) ""
 analysis(dc fields sweepChange) nil
 analysis(dc fields useDiscrete) nil
 analysis(dc fields values) nil
@@ -109,7 +109,7 @@ analysis(noise fields dec) ""
 analysis(noise fields designVar) ""
 analysis(noise fields dev) ""
 analysis(noise fields deviceParam) ""
-analysis(noise fields enable) (nil)
+analysis(noise fields enable) (t)
 analysis(noise fields freq) ""
 analysis(noise fields inIsrc) ""
 analysis(noise fields inPort) ""
@@ -154,7 +154,7 @@ analysis(tran fields dynParamListBox) (nil choices nil value nil)
 analysis(tran fields dynchoice) "Parameter file"
 analysis(tran fields dynparam) ""
 analysis(tran fields enable) (t)
-analysis(tran fields errpreset) ""
+analysis(tran fields errpreset) "moderate"
 analysis(tran fields noisefmax) ""
 analysis(tran fields noisefmin) ""
 analysis(tran fields noiseinst) ""
