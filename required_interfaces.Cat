@@ -1,0 +1,6 @@
+TDMCHECKPOINT="1.0"
+HW3_5540/data_gen type="cell"
+HW3_5540/decoder type="cell"
+HW3_5540/fake_noise type="cell"
+HW3_5540/four_phase_clk type="cell"
+keepEmptyCategory type="unknown"
