@@ -109,7 +109,7 @@ analysis(noise fields dec) ""
 analysis(noise fields designVar) ""
 analysis(noise fields dev) ""
 analysis(noise fields deviceParam) ""
-analysis(noise fields enable) (t)
+analysis(noise fields enable) (nil)
 analysis(noise fields freq) ""
 analysis(noise fields inIsrc) ""
 analysis(noise fields inPort) ""
@@ -158,7 +158,7 @@ analysis(pac fields extrasampletimepoints) nil
 analysis(pac fields fim_out) ""
 analysis(pac fields flin_out) ""
 analysis(pac fields freqs) nil
-analysis(pac fields fund) "100k"
+analysis(pac fields fund) ""
 analysis(pac fields harmCoeffs) nil
 analysis(pac fields harmListMem) nil
 analysis(pac fields harmonics) "Maximum sideband"
@@ -294,7 +294,7 @@ analysis(pnoise fields extcorrsources2UI) nil
 analysis(pnoise fields externSourcesBool) nil
 analysis(pnoise fields externalsources) nil
 analysis(pnoise fields externalsourcesUI) nil
-analysis(pnoise fields fund) "100k"
+analysis(pnoise fields fund) ""
 analysis(pnoise fields harmCoeffs) nil
 analysis(pnoise fields harmListMem) nil
 analysis(pnoise fields harmonics) "Maximum sideband"
