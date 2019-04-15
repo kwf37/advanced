@@ -4,7 +4,7 @@ analysis(ac fields dec) ""
 analysis(ac fields designVar) ""
 analysis(ac fields dev) ""
 analysis(ac fields deviceParam) ""
-analysis(ac fields enable) (t)
+analysis(ac fields enable) (nil)
 analysis(ac fields fim_out) ""
 analysis(ac fields flin_out) ""
 analysis(ac fields freq) ""
@@ -60,7 +60,7 @@ analysis(dc fields dec) ""
 analysis(dc fields designVar) ""
 analysis(dc fields dev) ""
 analysis(dc fields deviceParam) ""
-analysis(dc fields enable) (t)
+analysis(dc fields enable) (nil)
 analysis(dc fields hysteresis) nil
 analysis(dc fields incrType) "Automatic"
 analysis(dc fields lin) ""
@@ -153,7 +153,7 @@ analysis(pac fields center) ""
 analysis(pac fields contriblist) nil
 analysis(pac fields crossingdirection) "all"
 analysis(pac fields dec) ""
-analysis(pac fields enable) (nil)
+analysis(pac fields enable) (t)
 analysis(pac fields extrasampletimepoints) nil
 analysis(pac fields fim_out) ""
 analysis(pac fields flin_out) ""
@@ -583,7 +583,7 @@ analysis(pss fields dynParamB) nil
 analysis(pss fields dynParamListBox) (nil choices nil value nil)
 analysis(pss fields dynchoice) "Parameter file"
 analysis(pss fields dynparam) ""
-analysis(pss fields enable) (nil)
+analysis(pss fields enable) (t)
 analysis(pss fields engine) "Shooting"
 analysis(pss fields errpreset) "conservative"
 analysis(pss fields flexbalance) "no"
@@ -787,7 +787,7 @@ analysis(tran fields dynParamB) nil
 analysis(tran fields dynParamListBox) (nil choices nil value nil)
 analysis(tran fields dynchoice) "Parameter file"
 analysis(tran fields dynparam) ""
-analysis(tran fields enable) (t)
+analysis(tran fields enable) (nil)
 analysis(tran fields errpreset) "conservative"
 analysis(tran fields noisefmax) ""
 analysis(tran fields noisefmin) ""

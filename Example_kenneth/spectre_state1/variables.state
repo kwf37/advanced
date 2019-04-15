@@ -16,7 +16,7 @@ tmp2 = make_sevVariableStruct()
 tmp2 = (ncons nil)
 )
 tmp2->name = "int_on"
-tmp2->expression = "1"
+tmp2->expression = "0"
 tmp2->index = 2
 (unless tmp3
 tmp3 = make_sevVariableStruct()
@@ -25,7 +25,7 @@ tmp3 = make_sevVariableStruct()
 tmp3 = (ncons nil)
 )
 tmp3->name = "sig_on"
-tmp3->expression = "1"
+tmp3->expression = "0"
 tmp3->index = 3
 (unless tmp4
 tmp4 = make_sevVariableStruct()
@@ -61,7 +61,7 @@ tmp7 = make_sevVariableStruct()
 tmp7 = (ncons nil)
 )
 tmp7->name = "C"
-tmp7->expression = "10p"
+tmp7->expression = "20p"
 tmp7->index = 7
 (unless tmp8
 tmp8 = make_sevVariableStruct()
@@ -115,7 +115,7 @@ tmp13 = make_sevVariableStruct()
 tmp13 = (ncons nil)
 )
 tmp13->name = "Cb"
-tmp13->expression = "10p"
+tmp13->expression = "20p"
 tmp13->index = 13
 (unless tmp14
 tmp14 = make_sevVariableStruct()
