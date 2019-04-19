@@ -4,7 +4,7 @@ analysis(ac fields dec) ""
 analysis(ac fields designVar) ""
 analysis(ac fields dev) ""
 analysis(ac fields deviceParam) ""
-analysis(ac fields enable) (nil)
+analysis(ac fields enable) (t)
 analysis(ac fields fim_out) ""
 analysis(ac fields flin_out) ""
 analysis(ac fields freq) ""
@@ -60,7 +60,7 @@ analysis(dc fields dec) ""
 analysis(dc fields designVar) ""
 analysis(dc fields dev) ""
 analysis(dc fields deviceParam) ""
-analysis(dc fields enable) (nil)
+analysis(dc fields enable) (t)
 analysis(dc fields hysteresis) nil
 analysis(dc fields incrType) "Automatic"
 analysis(dc fields lin) ""
@@ -109,7 +109,7 @@ analysis(noise fields dec) ""
 analysis(noise fields designVar) ""
 analysis(noise fields dev) ""
 analysis(noise fields deviceParam) ""
-analysis(noise fields enable) (nil)
+analysis(noise fields enable) (t)
 analysis(noise fields freq) ""
 analysis(noise fields inIsrc) ""
 analysis(noise fields inPort) ""
@@ -153,12 +153,12 @@ analysis(pac fields center) ""
 analysis(pac fields contriblist) nil
 analysis(pac fields crossingdirection) "all"
 analysis(pac fields dec) ""
-analysis(pac fields enable) (t)
+analysis(pac fields enable) (nil)
 analysis(pac fields extrasampletimepoints) nil
 analysis(pac fields fim_out) ""
 analysis(pac fields flin_out) ""
 analysis(pac fields freqs) nil
-analysis(pac fields fund) ""
+analysis(pac fields fund) "100k"
 analysis(pac fields harmCoeffs) nil
 analysis(pac fields harmListMem) nil
 analysis(pac fields harmonics) "Maximum sideband"
@@ -294,7 +294,7 @@ analysis(pnoise fields extcorrsources2UI) nil
 analysis(pnoise fields externSourcesBool) nil
 analysis(pnoise fields externalsources) nil
 analysis(pnoise fields externalsourcesUI) nil
-analysis(pnoise fields fund) ""
+analysis(pnoise fields fund) "100k"
 analysis(pnoise fields harmCoeffs) nil
 analysis(pnoise fields harmListMem) nil
 analysis(pnoise fields harmonics) "Maximum sideband"
@@ -583,7 +583,7 @@ analysis(pss fields dynParamB) nil
 analysis(pss fields dynParamListBox) (nil choices nil value nil)
 analysis(pss fields dynchoice) "Parameter file"
 analysis(pss fields dynparam) ""
-analysis(pss fields enable) (t)
+analysis(pss fields enable) (nil)
 analysis(pss fields engine) "Shooting"
 analysis(pss fields errpreset) "conservative"
 analysis(pss fields flexbalance) "no"
@@ -787,7 +787,7 @@ analysis(tran fields dynParamB) nil
 analysis(tran fields dynParamListBox) (nil choices nil value nil)
 analysis(tran fields dynchoice) "Parameter file"
 analysis(tran fields dynparam) ""
-analysis(tran fields enable) (nil)
+analysis(tran fields enable) (t)
 analysis(tran fields errpreset) "conservative"
 analysis(tran fields noisefmax) ""
 analysis(tran fields noisefmin) ""

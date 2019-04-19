@@ -238,7 +238,7 @@ list(tmp1 tmp2)
 tmp24 = (let
 (tmp1 tmp2)
 tmp1 = 'save
-tmp2 = "all"
+tmp2 = "selected"
 list(tmp1 tmp2)
 )
 tmp25 = (let
