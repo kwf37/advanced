@@ -67,7 +67,7 @@ analysis(dc fields lin) "10001"
 analysis(dc fields log) ""
 analysis(dc fields mod) ""
 analysis(dc fields modelParam) ""
-analysis(dc fields param) "dc"
+analysis(dc fields param) ""
 analysis(dc fields rangeType) "Start-Stop"
 analysis(dc fields saveOppoint) t
 analysis(dc fields span) ""
@@ -76,7 +76,7 @@ analysis(dc fields step) "10m"
 analysis(dc fields stepTypeLin) "Number of Steps"
 analysis(dc fields stepTypeLog) "Points Per Decade"
 analysis(dc fields stop) "1.5"
-analysis(dc fields sweep) "Component Parameter"
+analysis(dc fields sweep) ""
 analysis(dc fields sweepChange) nil
 analysis(dc fields useDiscrete) nil
 analysis(dc fields values) nil
@@ -110,7 +110,7 @@ analysis(tran fields dynParamB) nil
 analysis(tran fields dynParamListBox) (nil choices nil value nil)
 analysis(tran fields dynchoice) "Parameter file"
 analysis(tran fields dynparam) ""
-analysis(tran fields enable) (nil)
+analysis(tran fields enable) (t)
 analysis(tran fields errpreset) "conservative"
 analysis(tran fields noisefmax) ""
 analysis(tran fields noisefmin) ""
