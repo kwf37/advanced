@@ -804,7 +804,6 @@ analysis(tran fields paramValue) ""
 analysis(tran fields param_file) ""
 analysis(tran fields param_vec) nil
 analysis(tran fields stop) "1m"
-analysis(tran fields tranNoise) ""
 analysis(tran fields tranNoiseMultiRuns) ""
 analysis(tran options FinalOpOtherParameters) ""
 analysis(tran options InfotimesOtherParameters) ""
